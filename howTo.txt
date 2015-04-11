@@ -1,0 +1,24 @@
+###################
+#James WIlson
+#DT211/3
+#Software Insallations & maintaince
+#Assignment #2
+#Backup and Restore sytem
+#HowTo file (text file)
+####################
+
+To run my file I have a file where it is used for the user.
+It displays a menu for the user, this menu consists for four options
+1) backup system, 2) Restore, 3) Choose a different directory
+4) exit the program
+
+# To back up the system the user just enters in 1
+
+# to restore the system the user just enters in 2
+
+# to choose a different folder directory used for the user to backup and restore
+# their files they enter 3, then enter in the directory they want to save it to
+# for example /home/ubuntu/Documents, or enter in blank not to change the file 
+# directory.
+
+# The user enters in 4 to exit the program.
