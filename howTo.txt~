@@ -19,16 +19,6 @@ It displays a menu for the user, this menu consists for four options
 # to choose a different folder directory used for the user to backup and restore
 # their files they enter 3, then enter in the directory they want to save it to
 # for example /home/ubuntu/Documents, or enter in blank not to change the file 
-# directory. when you enter in 3 it autoimatically back's up and restores the 
-# system
+# directory.
 
 # The user enters in 4 to exit the program.
-################################################
-		DESCRIPTION OF USING CRON
-################################################
-# i am also using cron to do system backup (automathic)
-# it executes every friday at 1am
-# this is the following command i used in crontab (crontab -e)
-# 0 1 * * 5 tar -zcf home/$USER/softwareInstallations/ script.tar.gz
-# I checked what tasks are running but entering in crontab -l 
-# and it should bring you to where you edited the crontab which it does successfully
