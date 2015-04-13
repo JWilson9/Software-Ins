@@ -37,8 +37,7 @@ elif [ "$opt" = "BACKUP" ]; then
     # c creates a new backup archive, v will print what the tar is doing
     # p preserves the permissions of the files put in the archive
     # the z compresses the backup file with 'gzip' to make it smaller
-    # the  --listed-incremental=snapshot.file is used for the incremental backup
-    sudo tar  --listed-incremental=snapshot.file -cvpzf $DESTIN/backup.tar.gz --exclude=/backup.tar.gz --exclude=/dev --exclude=/proc  --exclude=/sys --exclude=/tmp --exclude=/run --exclude=/mnt --exclude=/media --exclude=/lost+found --one-file-system /
+    sudo tar -cvpzf $DESTIN/backup.tar.gz --exclude=/backup.tar.gz --exclude=/dev --eclude=/proc  --exclude=/sys --exclude=/tmp --exclude=/run --exclude=/mnt --exclude=/media --exclude=/lost+found --one-file-system /
     echo "BACKUP COMPLETE"
     sleep 2
     exit
