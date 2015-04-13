@@ -32,3 +32,11 @@ It displays a menu for the user, this menu consists for four options
 # 0 1 * * 5 tar -zcf home/$USER/softwareInstallations/ script.tar.gz
 # I checked what tasks are running but entering in crontab -l 
 # and it should bring you to where you edited the crontab which it does successfully
+# I have also made a bash script to run the crontab as well as just just crontab -e
+
+
+
+
+
+
+
